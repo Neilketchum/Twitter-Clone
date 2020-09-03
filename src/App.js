@@ -1,9 +1,16 @@
 import React from 'react'
-import './App.css'
+import './App.css';
+import Sidebar from './Sidebar';
+import Feed from './Feed';
+
 export default function App() {
   return (
-    <div>
-      <h1>Lets Go</h1>
+    <div className = 'app'>
+      {/* SideBar */}
+      <Sidebar/>
+      {/* Feed */}
+      <Feed></Feed>
+      {/* Widgets */}
     </div>
   )
 }
