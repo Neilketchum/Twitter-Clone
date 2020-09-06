@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import Sidebar from './Sidebar';
 import Feed from './Feed';
+import Widgets from './Widgets';
 
 export default function App() {
   return (
@@ -11,6 +12,8 @@ export default function App() {
       {/* Feed */}
       <Feed></Feed>
       {/* Widgets */}
+      <Widgets></Widgets>
+   
     </div>
   )
 }
