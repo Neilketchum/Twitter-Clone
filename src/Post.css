@@ -10,9 +10,10 @@
     flex: 1;
     padding: 10px;
   }
-  
   .post__Img{
     border-radius: 20px;
+    width: 700px;
+    height: 500px;
   }
   
   .post__footer{
